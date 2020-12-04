@@ -1,14 +1,9 @@
-body {
-  margin: 0;
-}
-
 .main {
-  background-image: url("files/images/header-bg.png");
+  background-image: url("../files/images/header-bg.png");
   color: #FFFFFF;
   text-transform: uppercase;
   padding-bottom: 40px;
 }
-
 .nav {
   display: flex;
   justify-content: center;
@@ -16,48 +11,40 @@ body {
   font-weight: bold;
   font-size: 11.1823px;
 }
-
 .nav a {
   color: #FFFFFF;
   text-decoration: none;
 }
-
 .nav a:hover {
   color: #FFFFFF;
 }
-
 .nav .nav-item {
   padding: 50px 3%;
 }
-
 .nav .nav-img {
   padding-top: 3%;
 }
-
 .nav .nav-img img {
   width: 75px;
 }
-
 .timer {
   background-color: #C4C4C4;
   opacity: 0.5;
   width: 100px;
   text-align: center;
 }
-
 .main-content {
   display: flex;
   text-align: center;
   margin-top: 7%;
   justify-content: space-evenly;
 }
-
 .main-content .time-table {
-  -webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg); //Chrome, Safari
+  -moz-transform: rotate(-90deg); //Firefox
+  -o-transform: rotate(-90deg); //Opera
+  -ms-transform: rotate(-90deg); //IE
+  transform: rotate(-90deg); //браузеры без префексов
   font-size: 9px;
   width: 20%;
   padding-top: 8%;
@@ -68,17 +55,15 @@ body {
 .main-content .name p {
   font-size: 11.18px;
 }
-
 .main-content .name h1 {
   font-size: 70px;
+  //font-family: Banny;
   margin: 10px;
 }
-
 .main-btns {
   display: flex;
   justify-content: center;
 }
-
 .main-btns button {
   display: flex;
   justify-content: center;
@@ -92,12 +77,12 @@ body {
   height: 40px;
   margin: 15px;
   padding-top: 10px;
+  &:active,
+  &:focus {
+    outline: none;
+  }
 }
-.main-btns button:active, .main-btns button:focus {
-  outline: none;
-}
-
-.decoration-for-btn-chosen-point {
+.decoration {
   height: 3px;
   width: 40px;
   background-color: #E8C300;
@@ -105,18 +90,15 @@ body {
   margin-right: auto;
   border-radius: 5px;
 }
-
 .main-chosen-btn button {
   background-color: #E8C300;
 }
-
 .social-networks {
   width: 20%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
-
 .social-networks div {
   padding: 13px 7px;
   border: rgba(255, 255, 255, 0.5) 0.5px solid;
@@ -125,19 +107,15 @@ body {
   margin-left: 45%;
   width: 30px;
 }
-
 .social-networks div img {
   width: 15px;
 }
-
 .social-networks .fb_icon {
   width: 7px;
 }
-
 .social-networks .inst_icon {
   width: 13px;
 }
-
 .scroll-bottom-border {
   border: rgba(255, 255, 255, 0.5) 0.5px solid;
   border-radius: 100%;
@@ -147,39 +125,33 @@ body {
   padding-top: 5px;
   margin: 40px auto 0 auto;
 }
-
 .scroll-btn {
   background-color: #FFFFFF;
   border-radius: 100%;
   width: 20px;
   height: 20px;
 }
-
 .scroll-btn div {
   background-color: #000000;
   height: 1.5px;
   width: 6px;
   position: relative;
 }
-
 .scroll-btn .arrow-1 {
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg); //Chrome, Safari
+  -moz-transform: rotate(45deg); //Firefox
+  -o-transform: rotate(45deg); //Opera
+  -ms-transform: rotate(45deg); //IE
+  transform: rotate(45deg); //браузеры без префексов
   top: 9px;
   left: 5px;
 }
-
 .scroll-btn .arrow-2 {
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg); //Chrome, Safari
+  -moz-transform: rotate(-45deg); //Firefox
+  -o-transform: rotate(-45deg); //Opera
+  -ms-transform: rotate(-45deg); //IE
+  transform: rotate(-45deg); //браузеры без префексов
   top: 8px;
   left: 8px;
 }
-
-/*# sourceMappingURL=style.css.map */

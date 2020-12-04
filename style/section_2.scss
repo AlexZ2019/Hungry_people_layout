@@ -1,0 +1,61 @@
+.booking {
+  padding: 40px;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.booking-form-container {
+  display: flex;
+  justify-content: center;
+}
+.booking-form {
+  text-transform: uppercase;
+}
+.booking-form h2 {
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+.booking-form form {
+  margin-top: 10px;
+}
+.booking-form form input {
+  background-color: #E5E5E5;
+  color: rgba(51, 51, 51, 0.5);
+  border: 0;
+  border-radius: 4px;
+  width: 44%;
+  height: 20px;
+  padding: 10px;
+  margin: 5px 2px;
+}
+.booking-form form .form-button {
+  width: 450px;
+  text-transform: uppercase;
+  background-color: #E8C300;
+  color: #FFFFFF;
+  padding: 10px 0;
+  border: 0;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 9px;
+  margin-top: 5px;
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}
+.booking-watch {
+  margin-top: 50px;
+  height: 350px;
+  width: 375px;
+  background-image: url("../files/images/about-img.png");
+  background-size: cover;
+  background-repeat: round;
+}
+.yellow-square {
+  width: 60%;
+  height: 250px;
+  position: relative;
+  left: 40%;
+  top: 18%;
+}
