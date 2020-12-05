@@ -1,7 +1,12 @@
 body {
   margin: 0;
 }
+section {
+  text-align: center;
+}
+
 @import "section_1";
 @import "section_2";
 @import "section_3";
+@import "section_4";
 

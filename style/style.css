@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+section {
+  text-align: center;
+}
+
 .main {
   background-image: url("../files/images/header-bg.png");
   color: #FFFFFF;
@@ -185,7 +189,6 @@ body {
 .booking {
   padding: 40px;
   background-color: #FFFFFF;
-  text-align: center;
 }
 
 .booking-form-container {
@@ -250,8 +253,86 @@ body {
   top: 18%;
 }
 
-.specialties {
+.booking-info {
+  font-size: 11.18px;
+}
+
+.sliders {
   background-image: url("../files/images/specialty's-bg.png");
+  color: #FFFFFF;
+}
+
+.slider-1 h3 {
+  text-transform: uppercase;
+  padding-top: 20px;
+  font-size: 11.18px;
+  letter-spacing: 0.5em;
+}
+
+.specialties-container {
+  display: flex;
+  justify-content: center;
+}
+
+.specialties-picture {
+  background-image: url("../files/images/Rectangle.png");
+  background-repeat: round;
+  background-size: cover;
+  width: 40%;
+  height: 400px;
+}
+
+.specialties-info {
+  width: 40%;
+}
+
+.specialties-info h4 {
+  text-transform: uppercase;
+  font-size: 33.55px;
+}
+
+.specialties-info p {
+  font-size: 13px;
+}
+
+.specialties-first-p {
+  font-weight: bold;
+}
+
+.delicious-menu h5 {
+  font-size: 33.55px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.delicious-menu p {
+  font-weight: bold;
+  font-size: 16.77px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.delicious-menu .categories {
+  display: flex;
+  justify-content: center;
+}
+
+.delicious-menu .categories-item {
+  padding: 10px 20px;
+  border-right: 1px solid rgba(51, 51, 51, 0.2);
+}
+
+.delicious-menu .categories a {
+  color: #333333;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 11.18px;
+  font-weight: bold;
+}
+.delicious-menu .categories a:hover {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
