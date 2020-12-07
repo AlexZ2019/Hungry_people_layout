@@ -8,7 +8,7 @@ section {
 
 .main {
   background-image: url("../files/images/header-bg.png");
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
   padding-bottom: 40px;
 }
@@ -18,16 +18,16 @@ section {
   justify-content: center;
   text-align: center;
   font-weight: bold;
-  font-size: 11.1823px;
+  font-size: 11px;
 }
 
 .nav a {
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
 }
 
 .nav a:hover {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .nav .nav-item {
@@ -43,7 +43,7 @@ section {
 }
 
 .timer {
-  background-color: #C4C4C4;
+  background-color: #c4c4c4;
   opacity: 0.5;
   width: 100px;
   text-align: center;
@@ -70,7 +70,7 @@ section {
 }
 
 .main-content .name p {
-  font-size: 11.18px;
+  font-size: 11px;
 }
 
 .main-content .name h1 {
@@ -83,35 +83,33 @@ section {
   justify-content: center;
 }
 
-.main-btns button {
-  display: flex;
-  justify-content: center;
-  background-color: transparent;
-  border: rgba(255, 255, 255, 0.5) 0.5px solid;
-  color: #FFFFFF;
+.button {
+  height: 30px;
+  border: 0.5px solid rgba(255, 255, 255, 0.5);
+  color: #ffffff;
   border-radius: 2px;
   font-weight: bold;
   text-transform: uppercase;
+  padding-top: 15px;
   width: 150px;
-  height: 40px;
   margin: 15px;
-  padding-top: 10px;
+  font-size: 10px;
 }
-.main-btns button:active, .main-btns button:focus {
+.button:active, .button:focus {
   outline: none;
+}
+
+.main-btns .main-button {
+  background-color: #e8c300;
 }
 
 .decoration {
   height: 3px;
   width: 40px;
-  background-color: #E8C300;
+  background-color: #e8c300;
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
-}
-
-.main-chosen-btn button {
-  background-color: #E8C300;
 }
 
 .social-networks {
@@ -123,7 +121,7 @@ section {
 
 .social-networks div {
   padding: 13px 7px;
-  border: rgba(255, 255, 255, 0.5) 0.5px solid;
+  border: 0.5px solid rgba(255, 255, 255, 0.5);
   border-radius: 100%;
   margin-top: 15px;
   margin-left: 45%;
@@ -134,16 +132,16 @@ section {
   width: 15px;
 }
 
-.social-networks .fb_icon {
+.social-networks .fb-icon {
   width: 7px;
 }
 
-.social-networks .inst_icon {
+.social-networks .instagram-icon {
   width: 13px;
 }
 
 .scroll-bottom-border {
-  border: rgba(255, 255, 255, 0.5) 0.5px solid;
+  border: 0.5px solid rgba(255, 255, 255, 0.5);
   border-radius: 100%;
   width: 25px;
   height: 25px;
@@ -153,7 +151,7 @@ section {
 }
 
 .scroll-btn {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 100%;
   width: 20px;
   height: 20px;
@@ -166,7 +164,7 @@ section {
   position: relative;
 }
 
-.scroll-btn .arrow-1 {
+.scroll-btn .left-side {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
@@ -176,7 +174,7 @@ section {
   left: 5px;
 }
 
-.scroll-btn .arrow-2 {
+.scroll-btn .right-side {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
@@ -188,7 +186,7 @@ section {
 
 .booking {
   padding: 40px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .booking-form-container {
@@ -210,7 +208,7 @@ section {
 }
 
 .booking-form form input {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   color: rgba(51, 51, 51, 0.5);
   border: 0;
   border-radius: 4px;
@@ -223,17 +221,11 @@ section {
 .booking-form form .form-button {
   width: 450px;
   text-transform: uppercase;
-  background-color: #E8C300;
-  color: #FFFFFF;
-  padding: 10px 0;
+  background-color: #e8c300;
   border: 0;
   border-radius: 4px;
-  font-weight: bold;
   font-size: 9px;
-  margin-top: 5px;
-}
-.booking-form form .form-button:active, .booking-form form .form-button:focus {
-  outline: none;
+  margin: 5px 0 0 0;
 }
 
 .booking-watch {
@@ -254,18 +246,18 @@ section {
 }
 
 .booking-info {
-  font-size: 11.18px;
+  font-size: 11px;
 }
 
-.sliders {
-  background-image: url("../files/images/specialty's-bg.png");
-  color: #FFFFFF;
+.slider {
+  background-image: url("../files/images/specialty-bg.png");
+  color: #ffffff;
 }
 
-.slider-1 h3 {
+.slide .slide-title {
   text-transform: uppercase;
   padding-top: 20px;
-  font-size: 11.18px;
+  font-size: 11px;
   letter-spacing: 0.5em;
 }
 
@@ -275,7 +267,7 @@ section {
 }
 
 .specialties-picture {
-  background-image: url("../files/images/Rectangle.png");
+  background-image: url("../files/images/rectangle.png");
   background-repeat: round;
   background-size: cover;
   width: 40%;
@@ -286,9 +278,9 @@ section {
   width: 40%;
 }
 
-.specialties-info h4 {
+.specialties-info .specialties-info-title {
   text-transform: uppercase;
-  font-size: 33.55px;
+  font-size: 33px;
 }
 
 .specialties-info p {
@@ -299,8 +291,8 @@ section {
   font-weight: bold;
 }
 
-.delicious-menu h5 {
-  font-size: 33.55px;
+.delicious-menu .delicious-menu-title {
+  font-size: 33px;
   font-weight: bold;
   text-transform: uppercase;
   margin: 20px 0;
@@ -308,7 +300,7 @@ section {
 
 .delicious-menu p {
   font-weight: bold;
-  font-size: 16.77px;
+  font-size: 16px;
   width: 30%;
   margin-left: auto;
   margin-right: auto;
@@ -328,7 +320,7 @@ section {
   color: #333333;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 11.18px;
+  font-size: 11px;
   font-weight: bold;
 }
 .delicious-menu .categories a:hover {

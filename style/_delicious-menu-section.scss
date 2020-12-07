@@ -1,15 +1,15 @@
 .delicious-menu {
   
 }
-.delicious-menu h5 {
-  font-size: 33.55px;
+.delicious-menu .delicious-menu-title {
+  font-size: 33px;
   font-weight: bold;
   text-transform: uppercase;
   margin: 20px 0;
 }
 .delicious-menu p {
   font-weight: bold;
-  font-size: 16.77px;
+  font-size: 16px;
   width: 30%;
   margin-left: auto;
   margin-right: auto;
@@ -27,7 +27,7 @@
   color: #333333;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 11.18px;
+  font-size: 11px;
   font-weight: bold;
   &:hover {
     text-decoration: none;

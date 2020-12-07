@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="Hungry people restaurant">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Keywords" content="restaurant, hungry people">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="files/images/vector.png" type="image/x-icon">
     <link rel="stylesheet" href="style/style.css">
-    <title>Title</title>
+    <title>Hungry people</title>
 </head>
 <body>
 <section class="main">
@@ -12,13 +17,13 @@
         <div class="nav-item"><a href="#">about</a></div>
         <div class="nav-item"><a href="#">team</a></div>
         <div class="nav-item"><a href="#">booking</a></div>
-        <div class="nav-img"><img src="./files/images/Vector.png" alt=""></div>
+        <div class="nav-img"><img src="files/images/vector.png" alt=""></div>
         <div class="nav-item"><a href="#">menu</a></div>
         <div class="nav-item"><a href="#">galerie</a></div>
         <div class="nav-item"><a href="#">events</a></div>
         <div class="nav-item"><a href="#">contact</a></div>
     </div>
-    <div class="timer">left: 13:59</div>
+    <div class="timer">left: <span>13:59</span></div>
     <div class="main-content">
         <div class="time-table">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</div>
         <div class="name">
@@ -26,24 +31,24 @@
             <h1>hungry people</h1>
             <div class="decoration"></div>
             <div class="main-btns">
-                <div class="main-chosen-btn">
-                    <button>book table</button>
+                <div class="button main-button">
+                    book table
                 </div>
-                <div>
-                    <button>explore</button>
+                <div class="button main-second-button">
+                    explore
                 </div>
             </div>
         </div>
         <div class="social-networks">
-            <div><img class="fb_icon" src="./files/images/fb_icon.png" alt="fb"></div>
-            <div><img class="twitter_icon" src="./files/images/twitter_icon.png" alt="twitter"></div>
-            <div><img class="inst_icon" src="./files/images/instagram_icon.png" alt="instagram"></div>
+            <div><img class="fb-icon" src="./files/images/fb_icon.png" alt="fb"></div>
+            <div><img class="twitter-icon" src="./files/images/twitter_icon.png" alt="twitter"></div>
+            <div><img class="instagram-icon" src="./files/images/instagram_icon.png" alt="instagram"></div>
         </div>
     </div>
     <div class="scroll-bottom-border">
         <div class="scroll-btn">
-            <div class="arrow-1"></div>
-            <div class="arrow-2"></div>
+            <div class="left-side"></div>
+            <div class="right-side"></div>
         </div>
     </div>
 </section>
@@ -55,59 +60,58 @@
             <form>
                 <div>
                     <label>
-                        <input type="text" placeholder="Name">
+                        <input type="text" name="Name" placeholder="Name">
                     </label>
                     <label>
-                        <input type="text" placeholder="Email">
+                        <input type="email" name="Email" placeholder="Email">
                     </label>
                 </div>
                 <div>
                     <label>
-                        <input type="text" placeholder="Phone">
+                        <input type="text" name="Phone" placeholder="Phone">
                     </label>
                     <label>
-                        <input type="text" placeholder="People">
+                        <input type="text" name="People" placeholder="People">
                     </label>
                 </div>
                 <div>
                     <label>
-                        <input type="text" placeholder="Date">
+                        <input type="text" name="Date" placeholder="Date">
                     </label>
                     <label>
-                        <input type="text" placeholder="Time">
+                        <input type="text" name="Time" placeholder="Time">
                     </label>
                 </div>
-                <button class="form-button">book now</button>
+                <div class="button form-button">book now</div>
             </form>
         </div>
-<!--        <img class="booking-watch" src="./files/images/about-img.png" alt="watch">-->
         <div class="booking-watch">
             <img class="yellow-square" src="./files/images/yellow-square.png" alt="yellow_square">
         </div>
 
     </div>
     <div class="booking-info">
-        Mon - Fri: <b>8PM - 10PM</b>, Sat - Sun: <b>8PM - 3AM</b>, Phone: <b>+40 729 131 637/+40 726 458 782</b>
+        Mon - Fri: <span>8PM - 10PM</span>, Sat - Sun: <span>8PM - 3AM</span>, <a href="tel: +40729131637">40 729 131 637</a> / <a href="tel: +40726458782">40 726 458 782</a>
     </div>
 </section>
-<section class="sliders">
-    <div class="slider-1">
-        <h3>specialties</h3>
+<section class="slider">
+    <div class="slide">
+        <div class="slide-title">specialties</div>
         <div class="specialties-container">
             <div class="specialties-picture">
                 <img class="yellow-square" src="./files/images/yellow-square.png" alt="yellow_square">
             </div>
             <div class="specialties-info">
-                <h4>chocolate pancakes</h4>
+                <div class="specialties-info-title">chocolate pancakes</div>
                 <p class="specialties-first-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab consequatur eum excepturi in ipsam labore, nam porro, praesentium quos rem, soluta temporibus veritatis! Cumque eos id minima minus vero voluptatum!</p>
                 <p class="specialties-second-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo in iusto libero nostrum, obcaecati quibusdam quisquam recusandae sed vel velit? A, dolor doloremque nam non nulla odio odit perferendis temporibus!</p>
             </div>
         </div>
     </div>
-    <div class="slider-trigger"></div>
+    <div class="slider-control"></div>
 </section>
 <section class="delicious-menu">
-    <h5>delicious menu</h5>
+    <div class="delicious-menu-title">delicious menu</div>
     <div class="decoration"></div>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi expedita facere modi optio quibusdam, quo repellat? </p>
     <div class="categories">
@@ -120,7 +124,7 @@
         <div class="categories-item"><a href="#">drinks</a></div>
     </div>
     <div class="category-lists">
-        <div class="category-list-1">
+        <div class="category-list">
             <li class="list-item"></li>
             <li class="list-item"></li>
             <li class="list-item"></li>
@@ -129,7 +133,7 @@
             <li class="list-item"></li>
             <li class="list-item"></li>
         </div>
-        <div class="category-list-2">
+        <div class="category-list">
             <li class="list-item"></li>
             <li class="list-item"></li>
             <li class="list-item"></li>
@@ -138,7 +142,7 @@
             <li class="list-item"></li>
             <li class="list-item"></li>
         </div>
-        <div class="category-list-3">
+        <div class="category-list">
             <li class="list-item"></li>
             <li class="list-item"></li>
             <li class="list-item"></li>

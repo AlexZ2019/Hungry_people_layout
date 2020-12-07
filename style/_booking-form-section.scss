@@ -1,8 +1,7 @@
 .booking {
   padding: 40px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
-
 .booking-form-container {
   display: flex;
   justify-content: center;
@@ -18,7 +17,7 @@
   margin-top: 10px;
 }
 .booking-form form input {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   color: rgba(51, 51, 51, 0.5);
   border: 0;
   border-radius: 4px;
@@ -30,18 +29,11 @@
 .booking-form form .form-button {
   width: 450px;
   text-transform: uppercase;
-  background-color: #E8C300;
-  color: #FFFFFF;
-  padding: 10px 0;
+  background-color: #e8c300;
   border: 0;
   border-radius: 4px;
-  font-weight: bold;
   font-size: 9px;
-  margin-top: 5px;
-  &:active,
-  &:focus {
-    outline: none;
-  }
+  margin: 5px 0 0 0;
 }
 .booking-watch {
   margin-top: 50px;
@@ -59,5 +51,5 @@
   top: 18%;
 }
 .booking-info {
-  font-size: 11.18px;
+  font-size: 11px;
 }

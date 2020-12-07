@@ -1,11 +1,11 @@
-.sliders {
-  background-image: url("../files/images/specialty's-bg.png");
-  color: #FFFFFF;
+.slider {
+  background-image: url("../files/images/specialty-bg.png");
+  color: #ffffff;
 }
-.slider-1 h3 {
+.slide .slide-title {
   text-transform: uppercase;
   padding-top: 20px;
-  font-size: 11.18px;
+  font-size: 11px;
   letter-spacing: 0.5em;
 }
 .specialties-container {
@@ -13,7 +13,7 @@
   justify-content: center;
 }
 .specialties-picture {
-  background-image: url("../files/images/Rectangle.png");
+  background-image: url("../files/images/rectangle.png");
   background-repeat: round;
   background-size: cover;
   width: 40%;
@@ -22,9 +22,9 @@
 .specialties-info {
   width: 40%;
 }
-.specialties-info h4 {
+.specialties-info .specialties-info-title {
   text-transform: uppercase;
-  font-size: 33.55px;
+  font-size: 33px;
 }
 .specialties-info p {
   font-size: 13px;
